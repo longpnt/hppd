@@ -1,4 +1,4 @@
-const contentLetterSrart_actived = "Chúc chị tuổi mới thành công hơn trong công việc và sớm có người yếu nhé =))" //Lời mở đầu cho bức thư
+const contentLetterSrart_actived = "Chúc chị tuổi mới thành công hơn trong công việc và sớm có người yêu nhé =))" //Lời mở đầu cho bức thư
 const mainContentLetter = "Chúc mừng sinh nhật chị Tú của tôi ơi, chúc chị tiền tài, sự nghiệp và luôn luôn là nơi mà tôi vững tin tâm sự trò chuyện mỗi khi buồn nhé." //Nội dung của bức thư
 
 // Gắn 1 đường link ảnh bất kì
@@ -10,7 +10,7 @@ let imgLetter = document.querySelector(".img");
 imgLetter.src = "./img/b4bbdb54b7152338d7143cb444a77f09.png"; //Hình ảnh xuất hiện trong nội dung của bức thư sau khi bức thư được viết ra hết
 
 const splitContentLetterSrart_actived = contentLetterSrart_actived.split("");
- 
+  
 document.querySelector(".sticker").addEventListener("click", function () { //Hiệu ứng gõ chữ cho phần mở đầu của bức thư
     document.querySelector(".contentLetter").innerHTML = "";
     document.querySelector(".startLetter").classList.add("active")
